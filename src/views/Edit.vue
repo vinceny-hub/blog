@@ -1,39 +1,64 @@
 <template>
- <div>
+ 
   <h1>Edit Post</h1>
   <form @submit.prevent="updatePost">
-   <div >
-    <div >
-     <div >
+   
       <label>Post Title:</label>
-      <input type=text v-model="post.title">
-     </div>
-    </div>
-    </div>
-    <div >
-     <div >
-      <div >
-       <label>Post Body:</label>
-       <textarea v-model="post.body" rows="5"></textarea>
+      <input  class="containerInput mt-2 text-center"  placeholder=" Give a title to your post !" type=text v-model="post.title">
+    
+        <p>1</p>
+         <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body" rows="5"></textarea>  
+          <p>1</p>  
+        <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body2" rows="5"></textarea>
+         <p>1</p>
+        <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body3" rows="5"></textarea>
+         <p>1</p>
+          <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body4" rows="5"></textarea>
+           <p>1</p>
+            <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body5" rows="5"></textarea>
+             <p>1</p>
+              <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body6" rows="5"></textarea>
+               <p>1</p>
+                <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body7" rows="5"></textarea>
+                 <p>1</p>
+                  <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body8" rows="5"></textarea>
+                    <p>1</p>
+                    <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body9" rows="5"></textarea>
+                      <p>1</p>
+                      <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body10" rows="5"></textarea>
+                        <p>1</p>
+                        <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body11" rows="5"></textarea>
+                          <p>1</p>
+                          <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body12" rows="5"></textarea>
+                            <p>1</p>
+                            <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body13" rows="5"></textarea>
+                              <p>1</p>
+                              <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body14" rows="5"></textarea>
+                                <p>1</p>
+                                <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body15" rows="5"></textarea>
+                                  <p>1</p>
+                                  <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body16" rows="5"></textarea>
+                                    <p>1</p>
+                                    <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body17" rows="5"></textarea>
+                                      <p>1</p>
+                                      <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body18" rows="5"></textarea>
+                                        <p>1</p>
+                                        <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body19" rows="5"></textarea>
+                                          <p>1</p>
+                                          <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body20" rows="5"></textarea>
+                                            
       
-      </div>
-     </div>
-    </div>
-     <div >
-     <div >
-      <div >
-       <label>Post Body2:</label>
-       <textarea v-model="post.body2" rows="5"></textarea>
+     
       
-      </div>
-     </div>
-    </div>
+      
+      
+   
     <br/>
-    <div >
+     <!-- <button @click.prevent="updatePost()"></button> -->
      <button>Update</button>
-    </div>
+   
   </form>
- </div>
+
 </template>
 
 <script>

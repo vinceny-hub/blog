@@ -23,16 +23,126 @@
      <div >
       <div class="mt-4 border border-dark">
        <!-- <label>Post Body:</label> -->
-       
+       <p>1</p>
        <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body" rows="5"></textarea>
       
       </div>
+      
         <div class="mt-4 border border-dark">
        <!-- <label>Post Body:</label> -->
-       
+       <p>2</p>
        <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body2" rows="5"></textarea>
       
       </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>3</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body3" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>4</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body4" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>5</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body5" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>6</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body6" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>7</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body7" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>8</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body8" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>9</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body9" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>10</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body10" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>11</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body11" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>12</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body12" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>13</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body13" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>14</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body14" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>15</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body15" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>16</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body16" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>17</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body17" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>18</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body18" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>19</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body19" rows="5"></textarea>
+      
+      </div>
+      <div class="mt-4 border border-dark">
+       <!-- <label>Post Body:</label> -->
+       <p>20</p>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body20" rows="5"></textarea>
+      
+      </div>
+      
      </div>
     </div><br />
     <div class="text-center" >

@@ -14,9 +14,45 @@
      <div >
       <div >
       
-      <h1>{{ post.body }}</h1>
+      <p>{{ post.body }}</p>
       <br>
-      <h1>{{ post.body2 }}</h1>
+      <p>{{ post.body2 }}</p>
+      <br>
+      <p>{{ post.body3 }}</p>
+      <br>
+      <p>{{ post.body4 }}</p>
+      <br>
+      <p>{{ post.body5 }}</p>
+      <br>
+      <p>{{ post.body6 }}</p>
+      <br>
+      <p>{{ post.body7 }}</p>
+      <br>
+      <p>{{ post.body8 }}</p>
+      <br>
+      <p>{{ post.body9 }}</p>
+      <br>
+      <p>{{ post.body10 }}</p>
+      <br>
+      <p>{{ post.body11 }}</p>
+      <br>
+      <p>{{ post.body12 }}</p>
+      <br>
+      <p>{{ post.body13 }}</p>
+      <br>
+      <p>{{ post.body14 }}</p>
+        <br>
+      <p>{{ post.body15 }}</p>
+        <br>
+      <p>{{ post.body16 }}</p>
+        <br>
+      <p>{{ post.body17 }}</p>
+        <br>
+      <p>{{ post.body18 }}</p>
+        <br>
+      <p>{{ post.body19 }}</p>
+        <br>
+      <p>{{ post.body20 }}</p>
       
       </div>
 

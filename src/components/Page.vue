@@ -31,7 +31,7 @@
          <br>
          <p>{{ post.body }}</p>
           <br>
-         <p>{{ post.body2 }}</p>
+         <!-- <p>{{ post.body2 }}</p> -->
          <!-- <td><router-link :to="{name: 'edit', params: { id: post._id }}" >Edit</router-link></td> -->
          <router-link :to="{name: 'edit', params: { id: post._id }}" >Edit</router-link>
          <span><button @click.prevent="deletePost(post._id)">Delete</button></span>
@@ -78,18 +78,35 @@ export default {
    });
   },
   methods: {
-   deletePost(id)
-   {
+//    deletePostAlert()
+//    {
+//      var r = confirm("Press a button!\nEither OK or Cancel.\nThe button you pressed will be displayed in the result window.")
+//       if (r == true) {
+//        this.deletePost()
+//   } else {
+//     txt = "You pressed Cancel!";
+//   }
+//    },
+    
+    deletePost(id){ 
+    var r = confirm("Press a button!\nEither OK or Cancel.\nThe button you pressed will be displayed in the result window.")
+   
+    if (r == true) {
     let uri = `//localhost:3300/posts/delete/${id}`;
     axios.delete(uri).then(response => {
-     this.posts.splice(this.posts.indexOf(id), 1);
-     console.log(response)
-    })
-     .then(() => {
-        //   window.location.reload();
-        })
-        .catch(error => console.log(error));
-    },
+    this.posts.splice(this.posts.indexOf(id), 1);
+    console.log(response)
+    
+    })}
+     else {
+    txt = "You pressed Cancel!";
+  }
+    }
+    //  .then(() => {
+    //     //   window.location.reload();
+    //     })
+    //     .catch(error => console.log(error));
+    // },
    }
   }
  
