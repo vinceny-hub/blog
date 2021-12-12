@@ -98,7 +98,8 @@ export default {
    height: 450px;
    margin-left: auto;
    margin-right: auto;
-   border: 5px solid red;
+   /* border: 5px solid red; */
+   border: 5px solid lightgray; 
    overflow: hidden;
    position:relative;
 

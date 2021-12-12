@@ -94,7 +94,8 @@ export default {
   color:lightgray;
 }
 h1{ 
-  color: red;
+  /* color: red; */
+  color: lightgray; 
  
 }
 .posts{
@@ -107,10 +108,10 @@ a{
     text-decoration: none;
 }
 .titreBlog:hover{
-    color:lightgray;
+    color:red;
 }
 a:visited{
-    color:red;
+    color:lightgray;
     
    
     
@@ -123,7 +124,8 @@ a:visited{
 
 .titreArticle {
   width: 600px;
-  color: red;
+  /* color: red; */
+  color:lightgray;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -190,7 +192,8 @@ p{
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  color: red;
+  /* color: red; */
+  color:lightgray;
 }
 
 .titreBlogBox{
@@ -209,7 +212,8 @@ text-align: left;
   margin-left: 0px;
   margin-right: auto;  
   /* align-content: left;  */
-  color: red;
+  /* color: red; */
+  color:lightgray;
   font-size: 20px;
  
 
@@ -223,7 +227,8 @@ text-align: left;
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  border: 5px solid red;
+  /* border: 5px solid red; */
+  border: 5px solid lightgray; 
   display: flex;
   overflow: hidden;
   margin-top: -15px;

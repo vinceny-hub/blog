@@ -9,11 +9,12 @@ let Post = require('./post.model');
 
 // Defined store route
 postRoutes.route('/add', multer,).post(function (req, res) {
-  let post = new Post(req.body)({
+  let post = new Post(req.body);
+  // ({
   // const thing = new Thing({
-    ...post,
-    imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
-  });
+  //   ...post,
+  //   imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
+  // });
   post.save()
     .then(() => {
       res.status(200).json({'business': 'business in added successfully'});

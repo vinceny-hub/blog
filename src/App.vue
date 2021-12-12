@@ -77,11 +77,12 @@ export default {
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  /* color: #42b983; */
+  color:#a43b26;
 }
 
 body{
-     background-color:black;
+     background-color:rgb(17, 17, 17);
 }
 
 
@@ -114,7 +115,8 @@ body{
   margin-right: auto;  */
 
   /* background-size:  900px 300px; */
-   border: 5px solid red; 
+   /* border: 5px solid red;  */
+   border: 5px solid white; 
 }
 
 /*vinceenrussie*/
@@ -177,8 +179,9 @@ a{
 margin-left: 697px;
 margin-top: -37px;
 font-family:'Hungaria';
-border: 5px solid black;
-background-color: black;
+/* border: 5px solid black; */
+ /* border: 5px solid lightgray;  */
+/* background-color: black; */
 
 }
 
