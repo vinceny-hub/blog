@@ -1,12 +1,19 @@
 const express = require('express');
 const postRoutes = express.Router();
 
+// const auth = require('../middleware/auth');
+const multer = require('./middleware/multer-config');
+
 // Require Post model in our routes module
 let Post = require('./post.model');
 
 // Defined store route
-postRoutes.route('/add').post(function (req, res) {
-  let post = new Post(req.body);
+postRoutes.route('/add', multer,).post(function (req, res) {
+  let post = new Post(req.body)({
+  // const thing = new Thing({
+    ...post,
+    imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
+  });
   post.save()
     .then(() => {
       res.status(200).json({'business': 'business in added successfully'});
@@ -15,6 +22,18 @@ postRoutes.route('/add').post(function (req, res) {
       res.status(400).send("unable to save to database");
     });
 });
+
+// exports.createThing = (req, res, next) => {
+//   const thingObject = JSON.parse(req.body);
+//   delete thingObject._id;
+//   const thing = new Thing({
+//     ...thingObject,
+//     imageUrl: `${req.protocol}://${req.get('host')}/images/${req.file.filename}`
+//   });
+//   thing.save()
+//     .then(() => res.status(201).json({ message: 'Objet enregistré !'}))
+//     .catch(error => res.status(400).json({ error }));
+// };
 
 // Defined get data(index or listing) route
 postRoutes.route('/').get(function (req, res) {

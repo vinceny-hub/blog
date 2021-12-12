@@ -35,6 +35,7 @@
          <!-- <td><router-link :to="{name: 'edit', params: { id: post._id }}" >Edit</router-link></td> -->
          <router-link :to="{name: 'edit', params: { id: post._id }}" >Edit</router-link>
          <span><button @click.prevent="deletePost(post._id)">Delete</button></span>
+         
         </div>
     
   <!-- <router-link to="/about"><h1 class="titreBlogAccueil"><div class="titreBlog" href="../pages/Pages1.vue">Le Palais d'Hiver, musée de l'Ermitage de Saint-Pétersbourg.</div></h1>

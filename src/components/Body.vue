@@ -12,9 +12,9 @@
          <td><button @click.prevent="deletePost(post._id)">Delete</button></td>
         </tr> -->
     
-   <div class="postsDB" v-for="post in posts" :key="post._id">
+   <div class="postsDB" v-for="post in posts.reverse()" :key="post._id">
     
-      <h1 class="titreBlog"><router-link :to="{name: 'post', params: { id: post._id }}"> {{ post.title }}</router-link></h1>
+      <h1 class="titreBlogBox"><router-link class="titreBlog" :to="{name: 'post', params: { id: post._id }}"> {{ post.title }}</router-link></h1>
           <router-link class="imgBlog" :to="{name: 'post', params: { id: post._id }}"> 
         <!-- <div class="imgBlog"> -->
     
@@ -193,13 +193,22 @@ p{
   color: red;
 }
 
+.titreBlogBox{
+
+width: 660px;
+text-align: left;
+ margin-left: auto;
+  margin-right: auto; 
+  margin-bottom:17px; 
+}
+
 
 .titreBlog{
   /* width:750 px; */
-  margin-bottom:20px;
-  margin-left: -5px; 
-  margin-right: auto; 
-  align-content: left;
+  /* margin-bottom:20px; */
+  margin-left: 0px;
+  margin-right: auto;  
+  /* align-content: left;  */
   color: red;
   font-size: 20px;
  

@@ -9,25 +9,25 @@ let Post = new Schema({
   body: {
     type: String
   },
-  body2: {
+  body02: {
     type: String
   },
-  body3: {
+  body03: {
     type: String
   },
-  body4: {
+  body04: {
     type: String
   },
-  body5: {
+  body05: {
     type: String
   },
-  body7: {
+  body07: {
     type: String
   },
-  body8: {
+  body08: {
     type: String
   },
-  body9: {
+  body09: {
     type: String
   },
   body10: {

@@ -16,21 +16,21 @@
       
       <p>{{ post.body }}</p>
       <br>
-      <p>{{ post.body2 }}</p>
+      <p>{{ post.body02 }}</p>
       <br>
-      <p>{{ post.body3 }}</p>
+      <p>{{ post.body03 }}</p>
       <br>
-      <p>{{ post.body4 }}</p>
+      <p>{{ post.body04 }}</p>
       <br>
-      <p>{{ post.body5 }}</p>
+      <p>{{ post.body05 }}</p>
       <br>
-      <p>{{ post.body6 }}</p>
+      <p>{{ post.body06 }}</p>
       <br>
-      <p>{{ post.body7 }}</p>
+      <p>{{ post.body07 }}</p>
       <br>
-      <p>{{ post.body8 }}</p>
+      <p>{{ post.body08 }}</p>
       <br>
-      <p>{{ post.body9 }}</p>
+      <p>{{ post.body09 }}</p>
       <br>
       <p>{{ post.body10 }}</p>
       <br>

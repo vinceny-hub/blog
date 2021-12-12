@@ -9,21 +9,21 @@
         <p>1</p>
          <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body" rows="5"></textarea>  
           <p>1</p>  
-        <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body2" rows="5"></textarea>
+        <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body02" rows="5"></textarea>
          <p>1</p>
-        <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body3" rows="5"></textarea>
+        <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body03" rows="5"></textarea>
          <p>1</p>
-          <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body4" rows="5"></textarea>
+          <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body04" rows="5"></textarea>
            <p>1</p>
-            <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body5" rows="5"></textarea>
+            <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body05" rows="5"></textarea>
              <p>1</p>
-              <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body6" rows="5"></textarea>
+              <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body06" rows="5"></textarea>
                <p>1</p>
-                <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body7" rows="5"></textarea>
+                <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body07" rows="5"></textarea>
                  <p>1</p>
-                  <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body8" rows="5"></textarea>
+                  <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body08" rows="5"></textarea>
                     <p>1</p>
-                    <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body9" rows="5"></textarea>
+                    <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body09" rows="5"></textarea>
                       <p>1</p>
                       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body10" rows="5"></textarea>
                         <p>1</p>

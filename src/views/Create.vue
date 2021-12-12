@@ -27,47 +27,63 @@
        <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body" rows="5"></textarea>
       
       </div>
+
+      <div class="tab-pane fade" id="images" role="tabpanel" aria-labelledby="images-tab">
+                  <div class="form-group">
+                    <div class="custom-file">
+                      <!-- <p> not available on this version </p> -->
+                       <input  type="file" ref="file" @change="onSelect" class="" id="">
+                        <label class=""></label>                 
+                    </div>
+                    <div class="py-3"></div>
+                  </div>
+                </div>
+                <button @click="uploadImage"   type="submit" class="btn btn-success float-right" >Upload</button> 
+                <!-- v-show="!isHidden">Upload</button>  -->
+                <!-- :disabled="!noImage"  -->
+                <!-- type="submit" class="btn btn-success float-right" v-show="!isHidden">Upload</button>  -->
+
       
         <div class="mt-4 border border-dark">
        <!-- <label>Post Body:</label> -->
        <p>2</p>
-       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body2" rows="5"></textarea>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body02" rows="5"></textarea>
       
       </div>
       <div class="mt-4 border border-dark">
        <!-- <label>Post Body:</label> -->
        <p>3</p>
-       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body3" rows="5"></textarea>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body03" rows="5"></textarea>
       
       </div>
       <div class="mt-4 border border-dark">
        <!-- <label>Post Body:</label> -->
        <p>4</p>
-       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body4" rows="5"></textarea>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body04" rows="5"></textarea>
       
       </div>
       <div class="mt-4 border border-dark">
        <!-- <label>Post Body:</label> -->
        <p>5</p>
-       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body5" rows="5"></textarea>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body05" rows="5"></textarea>
       
       </div>
       <div class="mt-4 border border-dark">
        <!-- <label>Post Body:</label> -->
        <p>6</p>
-       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body6" rows="5"></textarea>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body06" rows="5"></textarea>
       
       </div>
       <div class="mt-4 border border-dark">
        <!-- <label>Post Body:</label> -->
        <p>7</p>
-       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body7" rows="5"></textarea>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body07" rows="5"></textarea>
       
       </div>
       <div class="mt-4 border border-dark">
        <!-- <label>Post Body:</label> -->
        <p>8</p>
-       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body8" rows="5"></textarea>
+       <textarea class="pb-cmnt-textarea" placeholder="Write your comment here!" type=text v-model="post.body08" rows="5"></textarea>
       
       </div>
       <div class="mt-4 border border-dark">
